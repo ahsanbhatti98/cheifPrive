@@ -1,0 +1,32 @@
+const Colors = {
+  WhiteOpacity: (opacity = '0.5') => `rgba(255, 255, 255, ${opacity})`,
+  BlackOpacity: (opacity = '0.5') => `rgba(0, 0, 0, ${opacity})`,
+  DisabledColor: (opacity = '0.5') => `rgba(20, 60, 133, ${opacity})`,
+  WhiteTwentyOpacity: 'rgba(255, 255, 255, 0.2)',
+  PrimaryTextColor: '#1F1F1F',
+  SecondaryTextColor: 'rgba(31, 31, 31, 0.50);',
+  TertiaryTextColor: '#1E8EF5',
+  SuccessTextColor: '#00FFD1',
+  ErrorTextColor: '#FF8179',
+  Primary: '#FF9E2C',
+  PrimaryOpacity: '#FF9E2C14',
+  NotFocussed: '#FF9E2C56',
+  Secondary: '#1B2043',
+  Base: '#FFFFFF',
+  Danger: '#BE1E24',
+  Grey: '#00000020',
+  Success: '#1cd50f',
+  TextInputBaseColor: '#F9F9F9',
+  TextInputBorderColor: '#4143574D',
+  // Transparent: 'transparent',
+  // Shadow: '#000000',
+  // Placeholder:'rgba(66, 82, 110, 0.5)',
+  // TextDark: '#0E134F',
+  // TextLight: '#42526E',
+  // InputFieldBackground:'rgba(66, 82, 110, 0.03)',
+  // InputFieldBorder:'rgba(66, 82, 110, 0.3)',
+  // LightGray:'rgba(66, 82, 110, 0.5)',
+  // Gray:'rgba(255, 255, 255, 0.5)'
+};
+
+export default Colors;
