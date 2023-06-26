@@ -52,3 +52,7 @@ Thumbs.db
 # Pods
 Pods/
 Pods
+
+# gradle
+.gradle
+.gradle/
